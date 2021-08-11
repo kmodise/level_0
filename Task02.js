@@ -7,5 +7,5 @@ var b = (1 + 1 * 2) / 2;
 console.log("x = " + x);
 console.log("y = " + y);
 console.log("z = " + z);
-console.log("x = " + x);
+console.log("a = " + a);
 console.log("b = " + b);
