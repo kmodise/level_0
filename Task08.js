@@ -7,6 +7,11 @@ function makeTime(num){
     hours = Math.floor(num/60);
 	minutes = num % 60;
 
+    if (num === 0){
+        console.log("0 minute");
+        return;
+    }
+
     if (hours > 1){
         hourString = " hours";
     }
