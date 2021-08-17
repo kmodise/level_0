@@ -8,7 +8,7 @@ function makeTime(num){
 	minutes = num % 60;
 
     if (num === 0){
-        console.log("0 minute");
+        console.log("0 hours 0 minutes");
         return;
     }
 
