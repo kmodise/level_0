@@ -1,7 +1,7 @@
 function makeTime(num){
     var hours;
     var minutes;
-    var minuteString = " minute";
+    var minuteString = " minutes";
     var hourString = " hour";
 
     hours = Math.floor(num/60);
@@ -15,8 +15,8 @@ function makeTime(num){
     if (hours > 1){
         hourString = " hours";
     }
-    if (minutes > 1){
-        minuteString = " minutes";
+    if (minutes == 1){
+        minuteString = " minute";
     }
 
     console.log(hours + hourString + " " + minutes + minuteString);
