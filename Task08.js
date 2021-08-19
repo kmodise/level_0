@@ -2,7 +2,7 @@ function makeTime(num){
     var hours;
     var minutes;
     var minuteString = " minutes";
-    var hourString = " hour";
+    var hourString = " hours";
 
     hours = Math.floor(num/60);
 	minutes = num % 60;
@@ -12,13 +12,12 @@ function makeTime(num){
         return;
     }
 
-    if (hours > 1){
-        hourString = " hours";
+    if (hours == 1){
+        hourString = " hour";
     }
     if (minutes == 1){
         minuteString = " minute";
     }
 
-    console.log(hours + hourString + " " + minutes + minuteString);
-    
+    console.log(hours + hourString + " " + minutes + minuteString);   
 }
